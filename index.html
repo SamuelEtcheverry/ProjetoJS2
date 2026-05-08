@@ -7,7 +7,23 @@
     <title>ProjetoJS2</title>
 </head>
 <body>
+    <header>
+        <h1>Meus projetos</h1>
+        <p>Os melhores Projetos Devs</p>
+        <div>
+            <input tyoe="button" class="cor" onclick=""Trocar(´#3ae8b1´)>
+            <input tyoe="button" class="cor" onclick=""Trocar(´#c13eaf´)>
+            <input tyoe="button" class="cor" onclick=""Trocar(´#c1e881´)>
+        </div>
+    </header>
+    <main>
+        <button onclick="cardProdutos(produtos)"> Mostrar Todos (Map)</button>
+        <button onclick="filtrarPromocoes()"> Aperas promoções (Filter)</button>
+        <button onclick="calcularTotal()"> Calcular Total (Rduce)</button>
+
+        <div class="lista-produtos" id="grid"></div>
+        <h2 id="resultado-total"></h2>
+    </main>
     <script src="./src/js/script.js"></script>
-    <h1>A</h1>
 </body>
 </html>
